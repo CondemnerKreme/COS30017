@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bài Tập 1</string>
+    <string name="score_label">Điểm: %1$d</string>
+    <string name="hold_label">Chỗ bám: %1$d</string>
+    <string name="climb_button">Leo lên</string>
+    <string name="fall_button">Ngã xuống</string>
+    <string name="reset_button">Đặt lại điểm</string>
+</resources>
