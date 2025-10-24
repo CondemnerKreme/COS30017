@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Instrument Rental</string>
+
+    <!-- Language Selection -->
+    <string name="language_settings">Language Settings</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="change_language">Change Language</string>
+
+    <!-- Main Activity -->
+    <string name="instrument_name">Instrument Name</string>
+    <string name="type">Type</string>
+    <string name="price">Price</string>
+    <string name="available">Available</string>
+    <string name="booked">Booked!</string>
+    <string name="previous">Previous</string>
+    <string name="borrow">Borrow</string>
+    <string name="next">Next</string>
+    <string name="credits_month">credits/month</string>
+
+    <!-- Detail Activity -->
+    <string name="booking_details">Booking Details</string>
+    <string name="your_full_name">Your Full Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_credit_balance">Your Credit Balance:</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Instrument Types -->
+    <string name="type_strings">Strings</string>
+    <string name="type_keyboard">Keyboard</string>
+    <string name="type_wind">Wind</string>
+    <string name="type_percussion">Percussion</string>
+
+    <!-- Error Messages -->
+    <string name="error_enter_name">Please enter your name</string>
+    <string name="error_enter_email">Please enter your email</string>
+    <string name="error_valid_email">Please enter a valid email address</string>
+    <string name="error_insufficient_credit">Insufficient credit. You need %1$d credits but only have %2$d</string>
+    <string name="error_not_available">This instrument is no longer available</string>
+
+    <!-- Toast Messages -->
+    <string name="booking_confirmed">Booking confirmed for %s!</string>
+    <string name="booking_cancelled">Booking cancelled</string>
+
+    <!-- Content Descriptions -->
+    <string name="instrument_image">Instrument image</string>
+</resources>
