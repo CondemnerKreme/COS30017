@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ListView
+        android:id="@+id/lsSensors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/txtSensorvalues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for sensor data..."
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+</LinearLayout>

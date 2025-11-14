@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="score_label">Score: %1$d</string>
+    <string name="hold_label">Hold: %1$d</string>
+    <string name="climb_button">Climb up</string>
+    <string name="fall_button">Fall down</string>
+    <string name="reset_button">Reset Score</string>
+</resources>
+
