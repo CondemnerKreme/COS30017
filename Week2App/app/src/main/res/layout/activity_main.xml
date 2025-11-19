@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/User"
+        android:layout_width="382dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:orientation="vertical"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@id/txtName"
+        app:layout_constraintTop_toTopOf="@id/txtName" />
+
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="382dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:orientation="vertical"
+        android:text="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="211dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="100dp"
+        android:text="Enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="211dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="100dp"
+        android:text="Cancel"
+
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+</LinearLayout>
